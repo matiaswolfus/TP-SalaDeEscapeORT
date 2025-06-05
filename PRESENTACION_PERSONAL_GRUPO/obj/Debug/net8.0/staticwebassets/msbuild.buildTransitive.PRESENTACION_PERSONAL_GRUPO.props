@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PRESENTACION_PERSONAL_GRUPO.props" />
-</Project>
