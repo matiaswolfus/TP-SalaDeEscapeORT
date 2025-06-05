@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\2025\\PROGRAMACION II\\P0 ROBOTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07D2B106-5DB4-4F5D-A825-233B7999FE63}|P0 ROBOTS\\P0 ROBOTS.csproj|z:\\2025\\programacion ii\\p0 robots\\p0 robots\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D2B106-5DB4-4F5D-A825-233B7999FE63}|P0 ROBOTS\\P0 ROBOTS.csproj|solutionrelative:p0 robots\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\2025\\PROGRAMACION II\\P0 ROBOTS\\P0 ROBOTS\\Program.cs",
+              "RelativeDocumentMoniker": "P0 ROBOTS\\Program.cs",
+              "ToolTip": "Z:\\2025\\PROGRAMACION II\\P0 ROBOTS\\P0 ROBOTS\\Program.cs",
+              "RelativeToolTip": "P0 ROBOTS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:58:30.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

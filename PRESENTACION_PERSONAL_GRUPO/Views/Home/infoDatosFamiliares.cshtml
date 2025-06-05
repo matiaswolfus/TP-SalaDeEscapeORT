@@ -1,0 +1,6 @@
+<p>Mis datos familiares son:</p>
+@foreach(datoFamiliar item in ViewBag.datosFamiliares)
+{
+    <p>@item.nombre @item.apellido, @item.parentesco, @item.descripción </p>
+}
+        <a href='@Url.Action("Index","Home")'alt = "Ir al index"> <p>VOLVER</p></a>

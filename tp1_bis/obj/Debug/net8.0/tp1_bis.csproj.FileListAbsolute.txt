@@ -1,0 +1,4 @@
+Z:\2025\PROGRAMACION II\tp1_bis\obj\Debug\net8.0\tp1_bis.GeneratedMSBuildEditorConfig.editorconfig
+Z:\2025\PROGRAMACION II\tp1_bis\obj\Debug\net8.0\tp1_bis.AssemblyInfoInputs.cache
+Z:\2025\PROGRAMACION II\tp1_bis\obj\Debug\net8.0\tp1_bis.AssemblyInfo.cs
+Z:\2025\PROGRAMACION II\tp1_bis\obj\Debug\net8.0\tp1_bis.csproj.CoreCompileInputs.cache

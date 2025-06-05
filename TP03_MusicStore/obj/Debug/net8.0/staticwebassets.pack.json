@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\111MILOJ.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\111MILOJ.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\ALMANICKI.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\ALMANICKI.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\AMALADOJA.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\AMALADOJA.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\AMARCTIC.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\AMARCTIC.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\HITMEBILLIE.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\HITMEBILLIE.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\HOMERUMPAULO.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\HOMERUMPAULO.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\INFAMEBABASONICOS.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\INFAMEBABASONICOS.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\JESSICOBABASONICOS.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\JESSICOBABASONICOS.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\MP3EMILIA.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\MP3EMILIA.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\PARADISELANA.webp",
+      "PackagePath": "staticwebassets\\Imagenes\\PARADISELANA.webp"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\STARBOYTHEWEEKND.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\STARBOYTHEWEEKND.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\Imagenes\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Imagenes\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\PROGRAMACION II\\TP03_MusicStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP03_MusicStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP03_MusicStore.props",
+      "PackagePath": "build\\TP03_MusicStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP03_MusicStore.props",
+      "PackagePath": "buildMultiTargeting\\TP03_MusicStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP03_MusicStore.props",
+      "PackagePath": "buildTransitive\\TP03_MusicStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

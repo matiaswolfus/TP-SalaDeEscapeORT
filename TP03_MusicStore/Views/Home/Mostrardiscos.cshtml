@@ -1,0 +1,20 @@
+
+<article>
+    <p>
+        @ViewBag.Disco.nombre <br />
+    </p>
+
+    <img src="~/Imagenes/@ViewBag.Disco.foto" alt="">
+      
+ 
+        @foreach (Tema tema in ViewBag.Disco.temas) 
+        {
+            <section>
+            <h2>@tema.nombre</h2>
+            </section>
+        }
+</article>
+    
+
+     
+
