@@ -1,31 +1,39 @@
-namespace TP_SalaDeEscape.Models;
-
-public static class SalaDeEscape 
+namespace TP_SalaDeEscape;
+public class TP_SalaDeEscape
 {
+    public string[] respuestasSala = new string[6];
 
-public string[] respuestas = new string[6];
+
+    public void llenarRespuestas()
+     {
+        respuestasSala[0] = "";
+        respuestasSala[1] = "";
+        respuestasSala[2] = "";
+        respuestasSala[3] = "";
+        respuestasSala[4] = "";
+        respuestasSala[5] = "";
+     }
 
 
-static void inicializarGrupo()
-{
-     respuestas[0] = "178";
-     respuestas[1] = "reglas del labo";
-     respuestas[2] = "14/08";
-     respuestas[3] = "programar";
-     respuestas[4] = "";
-     respuestas[5] = "";
+
+    public void JugarPorSala (int numeroSala, string respuesta) 
+    {
+        bool pasoLaSala = false;
+        do
+        {  
+           pasoLaSala = compararRespuesta(numeroSala,respuesta);
+
+        } while (pasoLaSala == false);
+    }
+
+     public bool compararRespuesta (int numeroSala, string respuesta) 
+     {
+        bool aux = false;
+        if (respuestasSala[numeroSala - 1] == respuesta) 
+        {
+            aux = true;
+        }
+
+        return aux;
+     }
 }
-static void comparar (int numeroSala, string respuesta)
-{
-
-bool pasa = false;
-do
-{
-    if (respuestas[numeroSala - 1] == respuesta)
-{
-pasa = true;
-}
-}while(pasa == false);
-
-}
-} 
