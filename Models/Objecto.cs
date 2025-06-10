@@ -1,4 +1,4 @@
-namespace TP_AHORCADO.Models;
+namespace TP_SalaDeEscape.Models;
 
 using Newtonsoft.Json;
 

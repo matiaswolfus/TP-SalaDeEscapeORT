@@ -13,8 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult emprezar()
     {
-        return View();
+        SalaDeEscape.inicializarGrupo();
+        return View(Index);
     }
+    public IactionResult comparar()
+    {
+        
+
+
+    }
+
 }
