@@ -15,14 +15,20 @@ public class HomeController : Controller
 
     public IActionResult emprezar()
     {
-        SalaDeEscape.inicializarGrupo();
-        return View(Index);
+        SalaDeEscape salaEscape = new SalaDeEscape();
+        HttpContext.Session.SetString("juegoDelAhorcado", objeto.ObjetoATexto(salaEscape));
+        ViewBag.respuestas = salaEscape.respuestasSala;
+        return View("index");
+        //creo objeto salaescape y lo guarod en session
     }
-    public IactionResult comparar()
+    public IActionResult jugarSala(string respuestas)
     {
-        
-
-
+       // traigo de session veo que sala esta
+        SalaDeEscape sala = objeto.TextoAObjeto<SalaDeEscape>(HttpContext.Session.GetString("salaDeEscape"));
+        ViewBag.sala = sala.salaActual;
+        sala.JugarPorSala(ViewBag.sala, respuestas);
+        return View("sala" + sala);
     }
+ 
 
 }

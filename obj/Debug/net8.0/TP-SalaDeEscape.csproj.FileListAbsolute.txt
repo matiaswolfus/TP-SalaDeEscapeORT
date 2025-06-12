@@ -1,0 +1,9 @@
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.csproj.AssemblyReference.cache
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.GeneratedMSBuildEditorConfig.editorconfig
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfoInputs.cache
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfo.cs
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.csproj.CoreCompileInputs.cache
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.MvcApplicationPartsAssemblyInfo.cache
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cache
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cs
+Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.sourcelink.json
