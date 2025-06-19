@@ -9,12 +9,12 @@ public class SalaDeEscape
         public SalaDeEscape()
         {
              
-         respuestasSala[0] = "";
-         respuestasSala[1] = "";
-         respuestasSala[2] = "";
-         respuestasSala[3] = "";
-         respuestasSala[4] = "";
-         respuestasSala[5] = "";
+         respuestasSala[0] = "respuesta";
+         respuestasSala[1] = "respuestaa";
+         respuestasSala[2] = "respuestaaa";
+         respuestasSala[3] = "respuestaaaa";
+         respuestasSala[4] = "respuestaaaaa";
+         respuestasSala[5] = "respuestaaaaaa";
 
         }
         
