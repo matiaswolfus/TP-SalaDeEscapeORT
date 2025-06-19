@@ -18,7 +18,7 @@ public class HomeController : Controller
         SalaDeEscape salaEscape = new SalaDeEscape();
         HttpContext.Session.SetString("juegoDelAhorcado", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
-        return View("index");
+        return View("Index");
         //creo objeto salaescape y lo guarod en session
     }
     public IActionResult jugarSala(string respuestas)
