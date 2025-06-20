@@ -13,16 +13,22 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult emprezar()
+    public IActionResult Index()
+    {
+        return View();
+    }
+
+    public IActionResult empezar()
     {
         SalaDeEscape salaEscape = new SalaDeEscape();
         HttpContext.Session.SetString("juegoDelAhorcado", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
         return View("Index");
-        //creo objeto salaescape y lo guarod en session
+        //creo objeto salaescape y lo guardo en session
     }
     public IActionResult jugarSala(string respuestas)
     {
+        
        // traigo de session veo que sala esta
         SalaDeEscape sala = objeto.TextoAObjeto<SalaDeEscape>(HttpContext.Session.GetString("salaDeEscape"));
         ViewBag.sala = sala.salaActual;
