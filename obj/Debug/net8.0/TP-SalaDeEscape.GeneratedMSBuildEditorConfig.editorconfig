@@ -9,55 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP-SalaDeEscape
 build_property.RootNamespace = TP-SalaDeEscape
-build_property.ProjectDir = z:\2025\PROGRAMACION II\TP-SalaDeEscape\
+build_property.ProjectDir = C:\Users\matwo\TP-SalaDeEscapeORT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\2025\PROGRAMACION II\TP-SalaDeEscape
+build_property.MSBuildProjectDirectory = C:\Users\matwo\TP-SalaDeEscapeORT
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/Index.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/sala1.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/perdiste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZXJkaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/sala1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/sala2.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/sala2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/sala3.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/sala3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/sala4.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/sala4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/sala5.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/sala5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Home/salaFinal.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Home/salaFinal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhRmluYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Shared/_Layout.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/_ViewImports.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/2025/PROGRAMACION II/TP-SalaDeEscape/Views/_ViewStart.cshtml]
+[C:/Users/matwo/TP-SalaDeEscapeORT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
