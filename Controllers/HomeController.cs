@@ -21,20 +21,28 @@ public class HomeController : Controller
     public IActionResult empezar()
     {
         SalaDeEscape salaEscape = new SalaDeEscape();
-        HttpContext.Session.SetString("juegoDelAhorcado", objeto.ObjetoATexto(salaEscape));
+        salaEscape.StartTime = DateTime.Now; // arranca el tiempo
+        HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
         return View("Index");
         //creo objeto salaescape y lo guardo en session
     }
     public IActionResult jugarSala(string respuestas)
     {
-        
-       // traigo de session veo que sala esta
-        SalaDeEscape sala = objeto.TextoAObjeto<SalaDeEscape>(HttpContext.Session.GetString("salaDeEscape"));
+
+        // traigo de session veo que sala esta
+        SalaDeEscape sala = objeto.TextoAObjeto<SalaDeEscape>(HttpContext.Session.GetString("SalaDeEscape"));
+        if (sala.IsTimeUp())
+        {
+            return View("TiempoTerminado"); //crear una view de tiempo terminado
+        }
         ViewBag.sala = sala.salaActual;
         sala.JugarPorSala(ViewBag.sala, respuestas);
         return View("sala" + sala);
     }
- 
+    public IActionResult TiempoTerminado()
+    {
+        return View();
+    }
 
 }

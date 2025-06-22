@@ -18,7 +18,19 @@ public class SalaDeEscape
 
         }
         
+    public DateTime StartTime { get; set; }
+    public TimeSpan Duration { get; set; } = TimeSpan.FromMinutes(10);
 
+    public bool IsTimeUp()
+    {
+        return DateTime.Now > StartTime + Duration;
+    }
+
+    public TimeSpan TimeLeft()
+    {
+        var endTime = StartTime + Duration;
+        return endTime > DateTime.Now ? endTime - DateTime.Now : TimeSpan.Zero;
+    }
 
    // hacer que vaya tirando respuestas, si es que esta mal lo hace repetir el proceso, si esta bien sigue
     public void JugarPorSala (int numeroSala, string respuesta) 
