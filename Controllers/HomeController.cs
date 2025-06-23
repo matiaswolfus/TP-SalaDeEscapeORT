@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using TP_SalaDeEscape.Models;
 
 namespace TP_SalaDeEscape.Controllers;
-
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
