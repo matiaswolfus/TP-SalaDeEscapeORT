@@ -1,0 +1,18 @@
+<div>
+    <h3>TIEMPO: <span id="timer"></span></h3>
+</div>
+<script>
+    // Mostrar el tiempo final sin disminuirlo
+    let secondsLeft = @(ViewBag.tiempoRestante ?? 600);
+
+    let minutes = Math.floor(secondsLeft / 60);
+    let seconds = Math.floor(secondsLeft % 60);
+    document.getElementById('timer').textContent =
+        minutes.toString().padStart(2, '0') + ':' +
+        seconds.toString().padStart(2, '0');
+</script>
+<section class="MensajeAyudante">
+<img src="" alt="">
+<h2>LO LOGRAMOS!, INCREIBLE. Ahora si podemos salir.</h2>
+ <h3>Muchas gracias por participar, y tambien por ganarles junto a mi a los de GESTION y CONSTRU!</h3>
+</section>

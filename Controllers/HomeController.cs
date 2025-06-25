@@ -25,7 +25,8 @@ public class HomeController : Controller
         salaEscape.StartTime = DateTime.Now; // arranca el tiempo
         HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
-        return View("Index");
+        ViewBag.tiempoRestante = salaEscape.TimeLeft().TotalSeconds; 
+        return View("sala1");
         //creo objeto salaescape y lo guardo en session
     }
     public IActionResult jugarSala(string respuestas)
@@ -39,7 +40,10 @@ public class HomeController : Controller
         }
         ViewBag.sala = sala.salaActual;
         sala.JugarPorSala(ViewBag.sala, respuestas);
-        return View("sala" + sala);
+        ViewBag.sala++;
+        ViewBag.tiempoRestante = sala.TimeLeft().TotalSeconds; 
+        HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
+        return View("sala" + ViewBag.sala);
     }
     public IActionResult TiempoTerminado()
     {

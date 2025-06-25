@@ -1,4 +1,25 @@
+<div>
+    <h3>Tiempo restante: <span id="timer"></span></h3>
+</div>
+<script>
+    // setear el timer (10 minutos = 600 segundos)
+    let secondsLeft = @(ViewBag.tiempoRestante ?? 600);
 
+    function updateTimer() {
+        let minutes = Math.floor(secondsLeft / 60);
+        let seconds = Math.floor(secondsLeft % 60);
+        document.getElementById('timer').textContent =
+            minutes.toString().padStart(2, '0') + ':' +
+            seconds.toString().padStart(2, '0');
+        if (secondsLeft > 0) {
+            secondsLeft--;
+            setTimeout(updateTimer, 1000);
+        } else {
+            window.location.href = '@Url.Action("TiempoTerminado", "Home")';
+        }
+    }
+    updateTimer();
+</script>
 <section class="MensajeAyudante">
 <img src="" alt="">
 <h2>Hola otra vez! Estan verdaderamene listos??. Okey empecemos, nuetsra primer mision va a ser encontrar la llave del laboratorio. El brillante Matías Wolfus, conocido por su meticulosidad y su pasión por los circuitos, siempre guardaba las llaves de su laboratorio más preciado con una lógica férrea. Sabía que solo las mentes más agudas, capaces de conectar teoría y práctica, merecían el acceso a sus experimentos más complejos.
