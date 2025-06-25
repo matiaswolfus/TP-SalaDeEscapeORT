@@ -24,7 +24,8 @@
     }
     updateTimer();
 </script>
-@* <img src="" alt="">
+
+<img src="" alt="">
 <h1>Hola Chicos!</h1>
 <p>
 Esta misión es de todos!. Necesito su ayuda y que me acompañen en este proceso de descifrar el Enigma de ORT y lograr escapar del colegio. Puede parecer fácil pero necesito de su inteligencia para poder cumplir con esto.
@@ -52,7 +53,9 @@ Estas son algunas de las reglas/instrucciones del juego que escribí en clase, �
     </div>
 </section>
 
-/* aca tiene que ir el boton de EMPEZAR que lleve al home controller e inicie el programa*/
- *@
+<form action='@Url.Action("empezar", "Home")' method="post">
+    <input type="submit" value="¡EMPEZAR!" />
+</form>
+
 
 

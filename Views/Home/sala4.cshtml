@@ -7,4 +7,9 @@
 
 <img src="" alt=""> (imagen de los tickets x IA, lo hago en mi casa con chat gpt plus.)
 
-/* el coso de poner la respuesta*/
+
+<form action='@Url.Action("jugarSala", "Home")' method="post">
+    <label for="respuestas">Ingresá tu respuesta:</label>
+    <input type="text" name="respuestas" id="respuestas" required />
+    <input type="submit" value="Enviar respuesta" />
+</form>

@@ -4,5 +4,11 @@
  <h3>No falta nada!, ahora si. A JUGAR Y GANAR!</h3>
 </section>
 /* hay que vincular un juego con el programa, es facil pero hay que preguntarle la clase que viene a leo bien como se hace eso!*/
-/*el juego nos tiene que al final dar un codigo o que la gente entienda alguna respuesta asi la pueden poner en el boton de respuestas */
+
+
+<form action='@Url.Action("jugarSala", "Home")' method="post">
+    <label for="respuestas">Ingresá tu respuesta:</label>
+    <input type="text" name="respuestas" id="respuestas" required />
+    <input type="submit" value="Enviar respuesta" />
+</form>
 

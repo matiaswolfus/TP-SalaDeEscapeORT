@@ -12,3 +12,9 @@
 
 /* aca va lo mismo que en todos, osea la textera para que pongan la respuesta y el boton de enviar (puse un ejemplo de maso como tiene que ser en la sala 1 que saque de ahorcado)*/
 </section>
+
+<form action='@Url.Action("jugarSala", "Home")' method="post">
+    <label for="respuestas">Ingresá tu respuesta:</label>
+    <input type="text" name="respuestas" id="respuestas" required />
+    <input type="submit" value="Enviar respuesta" />
+</form>
