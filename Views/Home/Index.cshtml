@@ -7,7 +7,7 @@
 
 <script>
     // setear el timer (10 minutes = 600 seconds)
-    let secondsLeft = @(Model?.TimeLeft()?.TotalSeconds ?? 6);
+    let secondsLeft = @(Model?.TimeLeft()?.TotalSeconds ?? 600);
 
     function updateTimer() {
         let minutes = Math.floor(secondsLeft / 60);
