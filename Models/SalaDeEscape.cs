@@ -33,14 +33,9 @@ public class SalaDeEscape
     }
 
    // hacer que vaya tirando respuestas, si es que esta mal lo hace repetir el proceso, si esta bien sigue
-    public void JugarPorSala (int numeroSala, string respuesta) 
-    {
-        bool pasoLaSala = false;
-        do
-        {  
-           pasoLaSala = compararRespuesta(numeroSala,respuesta);
-
-        } while (pasoLaSala == false);
+    public bool JugarPorSala (int numeroSala, string respuesta) 
+    { 
+        return compararRespuesta(numeroSala, respuesta);
         
     }
 

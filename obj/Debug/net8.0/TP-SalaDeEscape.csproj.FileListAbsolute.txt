@@ -1,49 +1,40 @@
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.csproj.AssemblyReference.cache
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.GeneratedMSBuildEditorConfig.editorconfig
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfoInputs.cache
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfo.cs
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.csproj.CoreCompileInputs.cache
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.MvcApplicationPartsAssemblyInfo.cache
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cache
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cs
-Z:\2025\PROGRAMACION II\TP-SalaDeEscape\obj\Debug\net8.0\TP-SalaDeEscape.sourcelink.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\appsettings.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.staticwebassets.runtime.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.exe
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.deps.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.runtimeconfig.json
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.pdb
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.csproj.AssemblyReference.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfoInputs.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfo.cs
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.csproj.CoreCompileInputs.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cs
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.sourcelink.json
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.TP-SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.build.TP-SalaDeEscape.props
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP-SalaDeEscape.props
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP-SalaDeEscape.props
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\scopedcss\bundle\TP-SalaDeEscape.styles.css
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaD.F22EC1D2.Up2Date
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\refint\TP-SalaDeEscape.dll
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.pdb
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.genruntimeconfig.cache
-C:\Users\matwo\TP-SalaDeEscapeORT\obj\Debug\net8.0\ref\TP-SalaDeEscape.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\appsettings.Development.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\appsettings.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.staticwebassets.runtime.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.exe
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.deps.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.runtimeconfig.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\TP-SalaDeEscape.pdb
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\Newtonsoft.Json.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.csproj.AssemblyReference.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.GeneratedMSBuildEditorConfig.editorconfig
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfoInputs.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.AssemblyInfo.cs
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.csproj.CoreCompileInputs.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.MvcApplicationPartsAssemblyInfo.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.RazorAssemblyInfo.cs
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.sourcelink.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.build.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.development.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.TP-SalaDeEscape.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.build.TP-SalaDeEscape.props
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP-SalaDeEscape.props
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP-SalaDeEscape.props
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\scopedcss\bundle\TP-SalaDeEscape.styles.css
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaD.F22EC1D2.Up2Date
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\refint\TP-SalaDeEscape.dll
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.pdb
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\TP-SalaDeEscape.genruntimeconfig.cache
+Z:\025\PROGRAMACION\TP-SalaDeEscapeORT\obj\Debug\net8.0\ref\TP-SalaDeEscape.dll
