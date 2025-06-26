@@ -1,0 +1,21 @@
+<h2>Estás en la sala de castigo </h2>
+<p>Te quedaste acá por fallar demasiadas veces. Podés volver a intentar en 1 minuto.</p>
+
+
+
+
+<script>
+    let seconds = parseInt(document.getElementById("timer").textContent);
+
+    function countdown() {
+        if (seconds > 0) {
+            seconds--;
+            document.getElementById("timer").textContent = seconds;
+            setTimeout(countdown, 1000);
+        } else {
+            location.reload(); 
+        }
+    }
+
+    countdown();
+</script>

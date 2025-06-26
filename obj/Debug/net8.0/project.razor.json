@@ -19374,6 +19374,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\025\\PROGRAMACION\\TP-SalaDeEscapeORT\\Views\\Home\\castigo.cshtml",
+      "TargetPath": "Views\\Home\\castigo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\025\\PROGRAMACION\\TP-SalaDeEscapeORT\\Views\\Home\\sala1.cshtml",
       "TargetPath": "Views\\Home\\sala1.cshtml",
       "FileKind": "mvc"

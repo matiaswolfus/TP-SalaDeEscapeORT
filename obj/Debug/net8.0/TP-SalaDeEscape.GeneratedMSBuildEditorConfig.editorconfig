@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\025\PROGRAMACION\TP-SalaDeEscapeORT
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/025/PROGRAMACION/TP-SalaDeEscapeORT/Views/Home/castigo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXN0aWdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/025/PROGRAMACION/TP-SalaDeEscapeORT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -22,7 +22,7 @@ public class HomeController : Controller
     public IActionResult empezar()
     {
         SalaDeEscape salaEscape = new SalaDeEscape();
-        salaEscape.StartTime = DateTime.Now; // // arranca el tiempo
+        salaEscape.StartTime = DateTime.Now; 
         HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
       ViewBag.tiempoRestante = (int)salaEscape.TimeLeft().TotalSeconds;
@@ -39,14 +39,31 @@ public class HomeController : Controller
     {
         return View("TiempoTerminado");
     }
+     if (sala.EnCastigo)
+    {
+        HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
+        return View("Castigo");
+    }
 
     ViewBag.sala = sala.salaActual;
-    bool paso = sala.JugarPorSala(ViewBag.sala, respuestas);
+    bool paso = sala.JugarPorSala(ViewBag.sala, respuestas.ToLower().Replace(" ", ""));
 
     if (paso)
     {
+        sala.intentosFallidos = 0; 
         ViewBag.sala++;
+    } else 
+    {
+        sala.intentosFallidos++;
     }
+
+    if (sala.intentosFallidos > 2)
+        {
+           sala.castigoHasta = DateTime.Now.AddSeconds(30);
+            sala.intentosFallidos = 0; 
+            HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
+            return View("Castigo");
+        }
 
     ViewBag.tiempoRestante = (int)sala.TimeLeft().TotalSeconds;
     HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
