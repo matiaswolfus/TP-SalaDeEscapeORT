@@ -3,9 +3,9 @@ html {
   min-height: 100%;
 }
 
-INDEX.Main 
+.INDEX
 {
-  background-image: url(Imagenes/imgInicio);
+  background-image:url(Imagenes/imgInicio.png);
 }
 
 
