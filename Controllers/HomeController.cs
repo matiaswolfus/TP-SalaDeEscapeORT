@@ -37,7 +37,7 @@ public class HomeController : Controller
 
     if (sala.IsTimeUp())
     {
-        return View("TiempoTerminado");
+        return View("perdiste");
     }
      if (sala.EnCastigo)
     {
