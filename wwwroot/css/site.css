@@ -3,6 +3,12 @@ html {
   min-height: 100%;
 }
 
+INDEX.Main 
+{
+  background-image: url(Imagenes/imgInicio);
+}
+
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
