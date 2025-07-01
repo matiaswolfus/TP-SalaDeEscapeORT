@@ -9,7 +9,7 @@
 </div>
 <script>
     // Mostrar el tiempo final sin disminuirlo
-    let secondsLeft = @(ViewBag.tiempoRestante ?? 600);
+    let secondsLeft = @(ViewBag.tiempoRestante ?? 60);
 
     let minutes = Math.floor(secondsLeft / 60);
     let seconds = Math.floor(secondsLeft % 60);

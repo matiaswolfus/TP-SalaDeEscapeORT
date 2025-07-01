@@ -6,21 +6,30 @@
 <main>
 <img src="Imagenes/NeneAsustado" alt="">
 <h2>Estás en la sala de castigo </h2>
-<p>Te quedaste acá por fallar demasiadas veces. Podés volver a intentar en 1 minuto.</p>
+<p>Te quedaste acá por fallar demasiadas veces. Podés volver a intentar en 15 segundos.</p>
 
+
+<div>
+    <h3>Tiempo restante: <span id="timer"></span></h3>
+</div>
 <script>
-    let seconds = parseInt(document.getElementById("timer").textContent);
+    // Set the timer (default to 60 seconds if ViewBag.tiempoRestante is null)
+    let secondsLeft = @Html.Raw(ViewBag.tiempoRestante ?? 15);
 
-    function countdown() {
-        if (seconds > 0) {
-            seconds--;
-            document.getElementById("timer").textContent = seconds;
-            setTimeout(countdown, 1000);
+    function updateTimer() {
+        let minutes = Math.floor(secondsLeft / 60);
+        let seconds = Math.floor(secondsLeft % 60);
+        document.getElementById('timer').textContent =
+            minutes.toString().padStart(2, '0') + ':' +
+            seconds.toString().padStart(2, '0');
+        if (secondsLeft > 0) {
+            secondsLeft--;
+            setTimeout(updateTimer, 1000);
         } else {
-            location.reload(); 
+            // Ensure the URL is properly rendered as a string
+            window.location.href = "@Url.Action("perdiste", "Home")";
         }
     }
-
-    countdown();
+    updateTimer();
 </script>
 </main>
