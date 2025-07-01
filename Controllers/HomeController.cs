@@ -17,15 +17,23 @@ public class HomeController : Controller
         return View();
     }
     
-
+ 
     [HttpPost]
+    public IActionResult Perdiste()
+    {
+        return View(); 
+    }
+       public IActionResult Volver()
+    {
+        return View(); 
+    }
     public IActionResult empezar()
     {
         SalaDeEscape salaEscape = new SalaDeEscape();
         salaEscape.StartTime = DateTime.Now; 
         HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(salaEscape));
         ViewBag.respuestas = salaEscape.respuestasSala;
-      ViewBag.tiempoRestante = (int)salaEscape.TimeLeft().TotalSeconds;
+        ViewBag.tiempoRestante = (int)salaEscape.TimeLeft().TotalSeconds;
         return View("sala1");
         //creo objeto salaescape y lo guardo en session
     }
@@ -42,8 +50,9 @@ public class HomeController : Controller
      if (sala.EnCastigo)
     {
         HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
-        return View("Castigo");
+        return View("castigo");
     }
+    
 
     ViewBag.sala = sala.salaActual;
     bool paso = sala.JugarPorSala(ViewBag.sala, respuestas.ToLower().Replace(" ", ""));

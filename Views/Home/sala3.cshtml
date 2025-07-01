@@ -2,13 +2,12 @@
     <h1>Sala 3</h1>
 </header>
 
-<main>
-    <div>
+<div>
     <h3>Tiempo restante: <span id="timer"></span></h3>
 </div>
 <script>
-    // setear el timer (10 minutos = 600 segundos)
-    let secondsLeft = @(ViewBag.tiempoRestante ?? 600);
+    // Set the timer (default to 60 seconds if ViewBag.tiempoRestante is null)
+    let secondsLeft = @Html.Raw(ViewBag.tiempoRestante ?? 600);
 
     function updateTimer() {
         let minutes = Math.floor(secondsLeft / 60);
@@ -20,12 +19,12 @@
             secondsLeft--;
             setTimeout(updateTimer, 1000);
         } else {
-            window.location.href = '@Url.Action("TiempoTerminado", "Home")';
+            // Ensure the URL is properly rendered as a string
+            window.location.href = "@Url.Action("perdiste", "Home")";
         }
     }
     updateTimer();
 </script>
-
 
 <section class="MensajeAyudante">
 <img src="" alt="">

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj",
         "packagesPath": "C:\\Users\\49009466\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\obj\\",
+=======
+    "C:\\Users\\49194355\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\49194355\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\49194355\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj",
+        "projectName": "TP-SalaDeEscape",
+        "projectPath": "C:\\Users\\49194355\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj",
+        "packagesPath": "C:\\Users\\49194355\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\49194355\\TP-SalaDeEscapeORT\\obj\\",
+>>>>>>> ac47cbad7756b69128aa61448860d44a31b04f80
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\49009466\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\49194355\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ac47cbad7756b69128aa61448860d44a31b04f80
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
