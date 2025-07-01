@@ -59,7 +59,7 @@ public class HomeController : Controller
 
     if (sala.intentosFallidos > 2)
         {
-           sala.castigoHasta = DateTime.Now.AddSeconds(30);
+            sala.castigoHasta = DateTime.Now.AddSeconds(30);
             sala.intentosFallidos = 0; 
             HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
             return View("Castigo");
