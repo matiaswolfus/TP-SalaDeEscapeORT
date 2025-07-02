@@ -9,122 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP-SalaDeEscape
 build_property.RootNamespace = TP-SalaDeEscape
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\49009466\Downloads\TP-SalaDeEscapeORT\
-=======
-build_property.ProjectDir = C:\Users\49194355\TP-SalaDeEscapeORT\
->>>>>>> ac47cbad7756b69128aa61448860d44a31b04f80
+build_property.ProjectDir = c:\Users\49009466\Downloads\TP-SalaDeEscapeORT-1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
-build_property.MSBuildProjectDirectory = C:\Users\49009466\Downloads\TP-SalaDeEscapeORT
+build_property.MSBuildProjectDirectory = c:\Users\49009466\Downloads\TP-SalaDeEscapeORT-1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/castigo.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/castigo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXN0aWdvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/Index.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/perdiste.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/perdiste.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZXJkaXN0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala1.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala2.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala3.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala4.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala5.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Home/sala6.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Home/sala6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Shared/_Layout.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/_ViewImports.cshtml]
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/49009466/Downloads/TP-SalaDeEscapeORT/Views/_ViewStart.cshtml]
-=======
-build_property.MSBuildProjectDirectory = C:\Users\49194355\TP-SalaDeEscapeORT
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/castigo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXN0aWdvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/perdiste.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwZXJkaXN0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhMy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala5.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Home/sala6.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzYWxhNi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/49194355/TP-SalaDeEscapeORT/Views/_ViewStart.cshtml]
->>>>>>> ac47cbad7756b69128aa61448860d44a31b04f80
+[c:/Users/49009466/Downloads/TP-SalaDeEscapeORT-1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

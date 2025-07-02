@@ -2,15 +2,18 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using TP_SalaDeEscape.Models;
 
+
 namespace TP_SalaDeEscape.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
+
 
     public IActionResult Index()
     {
@@ -39,9 +42,17 @@ public class HomeController : Controller
     }
 
 
+
+
     public IActionResult jugarSala(string respuestas)
 {
     SalaDeEscape sala = objeto.TextoAObjeto<SalaDeEscape>(HttpContext.Session.GetString("SalaDeEscape"));
+    // Si el castigo terminó, limpiar castigoHasta
+if (sala.castigoHasta != null && DateTime.Now >= sala.castigoHasta)
+{
+    sala.castigoHasta = null;
+}
+
 
     if (sala.IsTimeUp())
     {
@@ -49,13 +60,16 @@ public class HomeController : Controller
     }
      if (sala.EnCastigo)
     {
+        ViewBag.tiempoRestante = (int)(sala.castigoHasta.Value - DateTime.Now).TotalSeconds;
         HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
         return View("castigo");
     }
     
 
+
     ViewBag.sala = sala.salaActual;
-    bool paso = sala.JugarPorSala(ViewBag.sala, respuestas.ToLower().Replace(" ", ""));
+bool paso = sala.JugarPorSala(ViewBag.sala, (respuestas ?? "").ToLower().Replace(" ", ""));
+
 
     if (paso)
     {
@@ -66,18 +80,26 @@ public class HomeController : Controller
         sala.intentosFallidos++;
     }
 
+
     if (sala.intentosFallidos > 2)
         {
-            sala.castigoHasta = DateTime.Now.AddSeconds(30);
+            sala.castigoHasta = DateTime.Now.AddSeconds(15);
             sala.intentosFallidos = 0; 
+            ViewBag.tiempoRestante = 15;
+
+
             HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
             return View("Castigo");
         }
 
+
     ViewBag.tiempoRestante = (int)sala.TimeLeft().TotalSeconds;
     HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));
+
 
     // Siempre volvemos a mostrar la sala actual (no la siguiente)
     return View("sala" + sala.salaActual);
 }
 }
+
+

@@ -30,7 +30,13 @@ body.INDEX{
   margin-left: 45%;
 }
 
-.MensajeAyudante img{
+.SALA1{
+  background-image: url(../Imagenes/sala1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MensajeAyudante {
   float: left;
 }
 
@@ -41,9 +47,10 @@ body.INDEX{
   color: black;
   text-decoration: none;
   float: left;
-  margin-left: 10%;
-  margin-top: 5%;
-  position: relative;
+  margin-left: 65%;
+  margin-top: 8%;
+  position: absolute;
+  top: 0;
   padding: 0.5%;
   border: 3px solid gray;
 }
@@ -66,4 +73,10 @@ body.INDEX{
 
 .mostrar:hover .hiden{
   display: block;
+}
+
+.solucion{
+  margin-top: 21%;
+  text-align: center;
+  margin-right: 21%;
 }

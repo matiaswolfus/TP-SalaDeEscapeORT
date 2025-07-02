@@ -1,3 +1,5 @@
+<body class="SALA1">
+
 <main>
 
 <div>
@@ -24,23 +26,28 @@
     updateTimer();
 </script>
 
-
-<section class="MensajeAyudante">
-<img src="" alt="">
-<h2>Hola otra vez! Okey empecemos, nuestra primer mision va a ser encontrar la llave del laboratorio. El brillante Matías Wolfus siempre guardaba las llaves de su laboratorio más preciado con una lógica férrea. Sabía que solo las mentes más agudas merecían el acceso a sus experimentos más complejos.
- Cuidado y busquen en la pantalla el codigo a decifrar. Mi unica pista es, pasenlo a decimal.... Exitos!
- </h2>
- <h3>¡El tiempo corre, la alianza del Director de  Gestión y el de Construcciones no esperará!" </h3>
+<section>
+    <img class="MensajeAyudante" src="/Imagenes/ChicoFeliz.png" alt="">
+    <div class="mostrar">
+    <a href="#">Ver misión ⬇️</a>
+        <div class="hiden">
+            <h2>Hola otra vez! Empecemos, nuestra primer mision va a ser encontrar la llave del laboratorio. El brillante Matías Wolfus siempre guardaba las llaves de su laboratorio más preciado con una lógica férrea. Sabía que solo las mentes más agudas merecían el acceso a sus experimentos más complejos.
+            Cuidado y busquen en la pantalla el codigo a decifrar. Mi unica pista es, pasenlo a decimal.... Exitos!</h2>
+            <h3>¡El tiempo corre, la alianza del Director de  Gestión y el de Construcciones no esperará!" </h3>
+        </div>
+    </div>
 </section>
 
- <div class = "codigo binario">
+ <div class = "solucion">
     <h2>1 0 1 1   0 0 1 0</h2>
- </div>
 
- <form action='@Url.Action("jugarSala", "Home")' method="post">
-    <label for="respuestas">Ingresá tu respuesta:</label>
-    <input type="text" name="respuestas" id="respuestas" required />
-    <input type="submit" value="Enviar respuesta" />
-</form>
+    <form action='@Url.Action("jugarSala", "Home")' method="post">
+        <label for="respuestas">Ingresá tu respuesta:</label>
+        <input type="text" name="respuestas" id="respuestas" required />
+        <input type="submit" value="Enviar respuesta" />
+    </form>
+</div>
 
 </main>
+    
+</body>

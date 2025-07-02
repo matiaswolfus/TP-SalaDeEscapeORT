@@ -3,11 +3,16 @@ public class SalaDeEscape
 {
     public string[] respuestasSala = new string[6];
 
+
     public int salaActual = 1;
+
 
      public int intentosFallidos = 0;
     public DateTime? castigoHasta = null;
     public bool EnCastigo => castigoHasta != null && DateTime.Now < castigoHasta;
+
+
+
 
 
 
@@ -21,15 +26,18 @@ public class SalaDeEscape
          respuestasSala[4] = "programar"; // noc como pero es esa la palabra
          respuestasSala[5] = "respuestaaaaaa"; // no vimos todavia un codigo, que lo haga gasti o zoe
 
+
         }
         
     public DateTime StartTime { get; set; }
     public TimeSpan Duration { get; set; } = TimeSpan.FromMinutes(10);
 
+
     public bool IsTimeUp()
     {
         return DateTime.Now > StartTime + Duration;
     }
+
 
     public TimeSpan TimeLeft()
     {
@@ -37,11 +45,13 @@ public class SalaDeEscape
         return endTime > DateTime.Now ? endTime - DateTime.Now : TimeSpan.Zero;
     }
 
+
     public bool JugarPorSala (int numeroSala, string respuesta) 
     { 
         return compararRespuesta(numeroSala, respuesta);
         
     }
+
 
      public bool compararRespuesta (int numeroSala, string respuesta) 
      {
@@ -54,3 +64,5 @@ public class SalaDeEscape
         return aux;
      }
 }
+
+
