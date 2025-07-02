@@ -36,8 +36,18 @@ body.INDEX{
   background-size: cover;
 }
 
+.SALA2{
+  background-image: url(../Imagenes/sala2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .MensajeAyudante {
   float: left;
+}
+
+.SALA2 form{
+  margin-top: 30%;
 }
 
 .mostrar{
@@ -80,3 +90,498 @@ body.INDEX{
   text-align: center;
   margin-right: 21%;
 }
+
+
+
+/* lo que es mi parte osea castigo/ganaste y perdiste */
+
+/* Sala Castigo */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main.salaCastigo {
+  background: url('/Imagenes/SalaCastigo.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main.salaCastigo img {
+  max-width: 400px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+
+main.salaCastigo > *:not(img) {
+  max-width: 600px;
+  text-align: center;
+}
+
+main.salaCastigo h2 {
+  color: #f0f0f0;
+  text-shadow: 2px 2px 4px #000;
+  margin: 10px 0;
+  font-size: 2.6rem;
+}
+
+main.salaCastigo p {
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 0 20px 0;
+  font-size: 1.4rem;
+}
+
+main.salaCastigo div {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+main.salaCastigo h3 {
+  color: #eee;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+main.salaCastigo #timer {
+  font-weight: bold;
+  color: #ff5555;
+}
+
+
+
+
+
+
+/*Sala ganaste*/
+
+
+
+
+main.Ganaste {
+  background: url('/Imagenes/Ganaste.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+
+main.Ganaste div {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+
+main.Ganaste h3 {
+  color: black;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+
+
+
+main.Ganaste #timer {
+  font-weight: bold;
+  color: #ff5555;
+}
+
+
+
+
+main.Ganaste section.MensajeAyudante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  text-align: center;
+}
+
+
+
+
+main.Ganaste section.MensajeAyudante img {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+
+
+
+main.Ganaste section.MensajeAyudante h2 {
+  color: black;
+  font-size: 2.4rem;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+
+
+main.Ganaste section.MensajeAyudante h3 {
+  color: black;
+  background-color: lightblue;
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+
+
+
+/*Perdiste*/
+
+
+main.perdiste {
+  background: url('Imagenes/Perdiste.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+
+
+
+main.perdiste section.MensajeAyudante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+
+main.perdiste section.MensajeAyudante img {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+
+
+
+main.perdiste section.MensajeAyudante h2 {
+  color: #f0f0f0;
+  font-size: 2.2rem;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+
+
+main.perdiste section.MensajeAyudante h3 {
+  color: #ddd;
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+
+
+
+/*Sala 5*/
+
+
+
+
+
+
+main.Sala5 {
+  background: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+
+
+
+main.Sala5 div {
+  background: rgba(0,0,0,0.6);
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+
+main.Sala5 h3 {
+  color: #eee;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+
+
+main.Sala5 #timer {
+  font-weight: bold;
+  color: #ff5555;
+}
+
+
+main.Sala5 section.MensajeAyudante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  text-align: center;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+
+main.Sala5 section.MensajeAyudante img {
+  max-width: 150px;
+  margin-bottom: 15px;
+}
+
+
+
+
+main.Sala5 section.MensajeAyudante h2 {
+  color: #f0f0f0;
+  font-size: 2rem;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+
+
+main.Sala5 section.MensajeAyudante h3 {
+  color: #ddd;
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+
+main.Sala5 iframe {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border: 2px solid #555;
+  border-radius: 8px;
+}
+
+
+
+
+main.Sala5 form {
+  margin-top: 30px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+main.Sala5 form label {
+  color: #eee;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+
+
+
+main.Sala5 form input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+
+
+
+main.Sala5 form input[type="submit"] {
+  background-color: #444;
+  color: #eee;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+
+main.Sala5 form input[type="submit"]:hover {
+  background-color: #666;
+}
+
+
+/* Fondo principal de la sala */
+.sala4 {
+  background: url('/Imagenes/sala4.png') center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+ 
+  /* Empujar contenido hacia abajo */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+/* Contenedor del temporizador */
+.sala4 > div {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+
+.sala4 h3 {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+
+/* Temporizador numérico */
+.sala4 #timer {
+  font-weight: bold;
+}
+
+
+/* Mensaje del ayudante */
+.sala4 .MensajeAyudante {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+
+.sala4 .MensajeAyudante img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+.sala4 .MensajeAyudante h2 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+
+.sala4 .MensajeAyudante h3 {
+  font-size: 1.1em;
+}
+
+
+/* Formulario de respuesta */
+.sala4 form {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.sala4 form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+
+.sala4 form input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+
+.sala4 form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.sala4 form input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
