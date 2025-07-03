@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT-1\\TP-SalaDeEscape.csproj": {}
+    "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT-1\\TP-SalaDeEscape.csproj": {
+    "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT-1\\TP-SalaDeEscape.csproj",
+        "projectUniqueName": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj",
         "projectName": "TP-SalaDeEscape",
-        "projectPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT-1\\TP-SalaDeEscape.csproj",
+        "projectPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\TP-SalaDeEscape.csproj",
         "packagesPath": "C:\\Users\\49009466\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT-1\\obj\\",
+        "outputPath": "C:\\Users\\49009466\\Downloads\\TP-SalaDeEscapeORT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

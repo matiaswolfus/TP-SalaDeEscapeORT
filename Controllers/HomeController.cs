@@ -83,9 +83,9 @@ bool paso = sala.JugarPorSala(ViewBag.sala, (respuestas ?? "").ToLower().Replace
 
     if (sala.intentosFallidos > 2)
         {
-            sala.castigoHasta = DateTime.Now.AddSeconds(15);
+            sala.castigoHasta = DateTime.Now.AddSeconds(10);
             sala.intentosFallidos = 0; 
-            ViewBag.tiempoRestante = 15;
+            ViewBag.tiempoRestante = 10;
 
 
             HttpContext.Session.SetString("SalaDeEscape", objeto.ObjetoATexto(sala));

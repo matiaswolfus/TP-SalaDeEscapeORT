@@ -16,6 +16,7 @@ body {
 
 header a{
   color: white;
+  margin: 1%;
 }
 
 body.INDEX{
@@ -50,6 +51,28 @@ body.INDEX{
   margin-top: 30%;
 }
 
+.SALA3{
+  background-image: url(../Imagenes/Sala3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SALA3 form{
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+.SALA4{
+  background-image: url(../Imagenes/sala4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.SALA4 form{
+  margin-top: 30%;
+  margin-left: 40%;
+}
+
 .mostrar{
   background-color: white;
   text-align: center;
@@ -65,7 +88,22 @@ body.INDEX{
   border: 3px solid gray;
 }
 
-.mostrar a{
+.mostrar3{
+  background-color: white;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin-top: 12%;
+  margin-left: 20%;
+  position: absolute;
+  top: 0;
+  padding: 0.5%;
+  border: 3px solid gray;
+}
+
+.mostrar a, .mostrar3 a{
   color: black;
 }
 
@@ -81,7 +119,19 @@ body.INDEX{
   border: 3px solid gray;
 }
 
-.mostrar:hover .hiden{
+.SALA3 .hiden{
+  z-index: 999;
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700%;
+  border: 3px solid gray;
+}
+
+.mostrar:hover .hiden, .mostrar3:hover .hiden{
   display: block;
 }
 
@@ -308,11 +358,11 @@ main.perdiste section.MensajeAyudante h3 {
 /*Sala 5*/
 
 
+.SALA5{
+  background-image: url(../Imagenes/Sala);
+}
 
-
-
-
-main.Sala5 {
+.SALA5 {
   background: #222;
   min-height: 100vh;
   display: flex;
@@ -321,10 +371,7 @@ main.Sala5 {
   padding: 30px;
 }
 
-
-
-
-main.Sala5 div {
+.SALA5 div {
   background: rgba(0,0,0,0.6);
   padding: 15px 25px;
   border-radius: 8px;
@@ -334,7 +381,7 @@ main.Sala5 div {
 
 
 
-main.Sala5 h3 {
+.SALA5 h3 {
   color: #eee;
   margin: 0;
   font-weight: normal;
@@ -345,13 +392,13 @@ main.Sala5 h3 {
 
 
 
-main.Sala5 #timer {
+.SALA5 #timer {
   font-weight: bold;
   color: #ff5555;
 }
 
 
-main.Sala5 section.MensajeAyudante {
+.SALA5 section.MensajeAyudante {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -366,7 +413,7 @@ main.Sala5 section.MensajeAyudante {
 
 
 
-main.Sala5 section.MensajeAyudante img {
+.SALA5 section.MensajeAyudante img {
   max-width: 150px;
   margin-bottom: 15px;
 }
@@ -374,7 +421,7 @@ main.Sala5 section.MensajeAyudante img {
 
 
 
-main.Sala5 section.MensajeAyudante h2 {
+.SALA5 section.MensajeAyudante h2 {
   color: #f0f0f0;
   font-size: 2rem;
   margin: 10px 0;
@@ -384,14 +431,14 @@ main.Sala5 section.MensajeAyudante h2 {
 
 
 
-main.Sala5 section.MensajeAyudante h3 {
+.SALA5 section.MensajeAyudante h3 {
   color: #ddd;
   font-size: 1.4rem;
   margin: 10px 0;
 }
 
 
-main.Sala5 iframe {
+.SALA5 iframe {
   display: block;
   margin: 30px auto;
   max-width: 100%;
@@ -402,7 +449,7 @@ main.Sala5 iframe {
 
 
 
-main.Sala5 form {
+.SALA5 form {
   margin-top: 30px;
   background: rgba(0,0,0,0.6);
   padding: 20px;
@@ -415,7 +462,7 @@ main.Sala5 form {
 
 
 
-main.Sala5 form label {
+.SALA5 form label {
   color: #eee;
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -424,7 +471,7 @@ main.Sala5 form label {
 
 
 
-main.Sala5 form input[type="text"] {
+.SALA5 form input[type="text"] {
   padding: 10px;
   width: 250px;
   border: 1px solid #555;
@@ -436,7 +483,7 @@ main.Sala5 form input[type="text"] {
 
 
 
-main.Sala5 form input[type="submit"] {
+.SALA5 form input[type="submit"] {
   background-color: #444;
   color: #eee;
   border: 1px solid #222;
@@ -448,123 +495,9 @@ main.Sala5 form input[type="submit"] {
 }
 
 
-main.Sala5 form input[type="submit"]:hover {
+.SALA5 form input[type="submit"]:hover {
   background-color: #666;
 }
-
-
-/* Fondo principal de la sala */
-.sala4 {
-  background: url('/Imagenes/sala4.png') center center no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #ffffff;
- 
-  /* Empujar contenido hacia abajo */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-
-/* Contenedor del temporizador */
-.sala4 > div {
-  text-align: right;
-  margin-bottom: 20px;
-}
-
-
-.sala4 h3 {
-  font-size: 1.5em;
-  background: rgba(0, 0, 0, 0.6);
-  display: inline-block;
-  padding: 10px 15px;
-  border-radius: 8px;
-}
-
-
-/* Temporizador numérico */
-.sala4 #timer {
-  font-weight: bold;
-}
-
-
-/* Mensaje del ayudante */
-.sala4 .MensajeAyudante {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 800px;
-  margin: 0 auto 30px auto;
-  text-align: center;
-}
-
-
-.sala4 .MensajeAyudante img {
-  width: 150px;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-
-.sala4 .MensajeAyudante h2 {
-  font-size: 1.3em;
-  margin-bottom: 15px;
-}
-
-
-.sala4 .MensajeAyudante h3 {
-  font-size: 1.1em;
-}
-
-
-/* Formulario de respuesta */
-.sala4 form {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 10px;
-  text-align: center;
-}
-
-
-.sala4 form label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 1.1em;
-}
-
-
-.sala4 form input[type="text"] {
-  width: 80%;
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  font-size: 1em;
-  margin-bottom: 15px;
-}
-
-
-.sala4 form input[type="submit"] {
-  padding: 10px 20px;
-  background-color: #2ecc71;
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-
-.sala4 form input[type="submit"]:hover {
-  background-color: #27ae60;
-}
-
 
 
 

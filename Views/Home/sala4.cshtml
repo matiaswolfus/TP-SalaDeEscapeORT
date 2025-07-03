@@ -1,6 +1,4 @@
-<header>
-    <h1>Sala 4</h1>
-</header>
+<body class="SALA4">
 
 <div>
     <h3>Tiempo restante: <span id="timer"></span></h3>
@@ -26,19 +24,20 @@
     updateTimer();
 </script>
 
-<section class="MensajeAyudante">
-<img src="" alt="">
-<h2>Han demostrado su astucia al entrar en la oficina de Dami Asman, pero el juego no ha terminado. Aquí, en su propio espacio, Asman ha dejado el filtro final para los que buscan el legado de Wolfus, Acquistapace y Daiksel. Él, un hombre que mira hacia el futuro y las conexiones globales, no esconde sus secretos en cifras, sino en visiones.
-</h2>
- <h3>Observen con atención la pared, donde Asman ha colgado recuerdos de sus viajes. Esos pasajes de avión, a primera vista meros souvenirs, son mucho más que eso. Acuerdense</h3>
+<section>
+    <div class="mostrar" style="margin-left: 45%;">
+    <a href="#">Ver misión ⬇️</a>
+        <div class="hiden">
+            <h2>Han demostrado su astucia al entrar en la oficina de Dami Asman, pero el juego no ha terminado. Aquí, en su propio espacio, Asman ha dejado el filtro final para los que buscan el legado de Wolfus, Acquistapace y Daiksel.</h2>
+            <h3>Observen con atención la pared, donde Asman ha colgado recuerdos de sus viajes. A primera vista parecen simples souvenirs, pero juntos forman su ambito favorito</h3>
+        </div>
 </section>
 
-<img src="" alt=""> (imagen de los tickets x IA, lo hago en mi casa con chat gpt plus.)
-
-
 <form action='@Url.Action("jugarSala", "Home")' method="post">
-    <label for="respuestas">Ingresá tu respuesta:</label>
+    <label for="respuestas">Ingresá tu respuesta:</label> <br>
     <input type="text" name="respuestas" id="respuestas" required />
     <input type="submit" value="Enviar respuesta" />
 </form>
 </main>
+    
+</body>

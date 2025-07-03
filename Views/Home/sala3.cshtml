@@ -1,6 +1,4 @@
-<header>
-    <h1>Sala 3</h1>
-</header>
+<body class="SALA3">
 
 <div>
     <h3>Tiempo restante: <span id="timer"></span></h3>
@@ -26,16 +24,13 @@
     updateTimer();
 </script>
 
-<section class="MensajeAyudante">
-<img src="" alt="">
-<h2>Han superado el desafío. Gastón, un genio que siempre valoró la organización  dejó su pista más importante en la Coordinación. Daiksel era más sutil, y su "tesoro" está oculto a plena vista, para quienes saben cómo leer entre líneas.
- </h2>
- <h3>Mi unica pista es, "Feliz cumple director"! Manos a la obra!</h3>      
-
-<section class="CalendarioCoordi">
-<h2>Su misión es identificar una secuencia precisa de tres elementos: un nombre, una fecha y un logro específico. Una vez que conecten estos tres datos de la manera correcta, esa combinación les revelará la clave de un archivo digital protegido o la ubicación exacta de un compartimento oculto dentro de la propia Coordinación. Este archivo o compartimento guarda el siguiente eslabón del descubrimiento de Daiksel, Wolfus y Acquistapace.
-</h2>
-<img src="" alt="">
+<section>
+    <div class="mostrar3">
+    <a href="#">Ver misión ⬇️</a>
+        <div class="hiden">
+            <h2>Han superado el desafío. Gastón, un genio que siempre valoró la organización  dejó su pista más importante en la Coordinación. Daiksel era más sutil, y su "tesoro" está oculto a plena vista, para quienes saben cómo leer entre líneas.</h2>
+            <h2 style="text-decoration: underline;">Mi unica pista es, "Feliz cumple director"! Manos a la obra!</h3> 
+        </div>
 </section>
 
 <form action='@Url.Action("jugarSala", "Home")' method="post">
@@ -44,3 +39,5 @@
     <input type="submit" value="Enviar respuesta" />
 </form>
 </main>
+    
+</body>

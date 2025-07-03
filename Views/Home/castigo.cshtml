@@ -2,7 +2,7 @@
 <main class = "salaCastigo">
 <img src="Imagenes/NeneAsustado.png" alt="">
 <h2>Estás en la sala de castigo </h2>
-<p>Te quedaste acá por fallar demasiadas veces. Podés volver a intentar en 15 segundos.</p>
+<p>Te quedaste acá por fallar demasiadas veces. Podés volver a intentar en 10 segundos.</p>
 
 
 <div>
@@ -10,7 +10,7 @@
 </div>
 <script>
     // Set the timer (default to 60 seconds if ViewBag.tiempoRestante is null)
-    let secondsLeft = @Html.Raw(ViewBag.tiempoRestante ?? 15);
+    let secondsLeft = @Html.Raw(ViewBag.tiempoRestante ?? 10);
 
     function updateTimer() {
         let minutes = Math.floor(secondsLeft / 60);

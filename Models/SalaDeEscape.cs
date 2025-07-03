@@ -21,7 +21,7 @@ public class SalaDeEscape
             
          respuestasSala[0] = "178";// en decimal 178 = 10110010 en binario
          respuestasSala[1] = "reglasdellabo"; // por las dudas aclarar que es labo y no laboratorio 
-         respuestasSala[2] = "damian"; //poner algo del cumple de dami asman
+         respuestasSala[2] = "14/08"; //poner algo del cumple de dami asman 
          respuestasSala[3] = "cidi"; //los pasajes de avión van a ser 4 y los destinos van a formar la palabra
          respuestasSala[4] = "programar"; // noc como pero es esa la palabra
          respuestasSala[5] = "respuestaaaaaa"; // no vimos todavia un codigo, que lo haga gasti o zoe
